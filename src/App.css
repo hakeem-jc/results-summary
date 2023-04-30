@@ -1,0 +1,28 @@
+.app__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* fallback */
+    height: 100svh;
+}
+
+.results {
+    width: 736px;
+    height: 352px;
+    display: flex;
+}
+
+.results__info {
+    width: 368px;
+}
+
+.app__attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}

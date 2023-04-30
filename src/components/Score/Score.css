@@ -1,0 +1,12 @@
+.score__summary-item, .score__summary-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score__summary-item {
+    width: 288px;
+}
+
+.score__summary-item__icon {
+    margin-right: 12px;
+}
