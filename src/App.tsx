@@ -13,12 +13,14 @@ const App = () => {
         <div className='results__info'>
           <h1 className='results__title'>Your Results</h1>
           <div className='results__score'>76 <span>of 100</span></div>
-          <h2 className='results__subtitle'>Great</h2>
-          <p className='results__text'>You scored higher than 65% of the people who have taken these tests.</p>
+          <div className='results__text-container'>
+            <h2 className='results__subtitle'>Great</h2>
+            <p className='results__text'>Your performance exceed 65% of the people conducting the test here!</p>
+          </div>
         </div>
 
         <div className='results__summary'>
-          <h1 className='results__title'>Summary</h1>
+          <h1 className='summary__title'>Summary</h1>
           <Score title={"Reaction"} color={'red'} icon={iconReaction} score={80}/>
           <Score title={"Memory"} color={'yellow'} icon={iconMemory} score={92}/>
           <Score title={"Verbal"} color={'green'} icon={iconVerbal} score={61}/>
