@@ -4,17 +4,19 @@
     justify-content: center;
     height: 100vh; /* fallback */
     height: 100svh;
-    background: #F5F7FF;
+    background: #ECF2FF;
 }
 
 .results {
-    width: 46rem;
+    width: 42rem;
     height: 30rem;
     display: flex;
+    background-color: #fff;
+    border-radius: 2rem;
 }
 
 .results__info {
-    width: 368px;
+    width: 50%;
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 2rem;
     text-align: center;
@@ -61,6 +63,10 @@
     color: #CAC9FF;
     width: 17.5rem;
     font-size: 1.125rem;
+}
+
+.results__summary {
+    padding-left: 2.5rem;
 }
 
 .app__attribution {
