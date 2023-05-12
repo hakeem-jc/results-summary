@@ -4,9 +4,64 @@
 }
 
 .score__summary-item {
-    width: 288px;
+    width: 16rem;
+    padding: 1rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.75rem;
 }
 
 .score__summary-item__icon {
-    margin-right: 12px;
+    margin-right: 0.75rem;
+}
+
+.score__summary-label {
+    font-size: 1.125rem;
+}
+
+.score__summary-score {
+    color: #303B59;
+    opacity: 0.5;
+}
+
+.score__summary-score span {
+    color: black;
+    opacity: 1;
+}
+
+.score__summary-red {
+    /* Red (95% White) */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+
+.score__summary-red .score__summary-label {
+    color: #FF5555;
+}
+
+.score__summary-yellow {
+    /* Yellow (95% White) */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.score__summary-yellow .score__summary-label {
+    color: #FFB21E;
+}
+
+.score__summary-green {
+    /* Green (95% White) */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+.score__summary-green .score__summary-label {
+    color: #00BB8F;
+}
+
+.score__summary-blue {
+    /* Blue (95% White) */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
+.score__summary-blue .score__summary-label {
+    color: #1125D6;
 }

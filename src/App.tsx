@@ -21,10 +21,12 @@ const App = () => {
 
         <div className='results__summary'>
           <h1 className='summary__title'>Summary</h1>
-          <Score title={"Reaction"} color={'red'} icon={iconReaction} score={80}/>
-          <Score title={"Memory"} color={'yellow'} icon={iconMemory} score={92}/>
-          <Score title={"Verbal"} color={'green'} icon={iconVerbal} score={61}/>
-          <Score title={"Visual"} color={'purple'} icon={iconVisual} score={72}/>
+          <div className="results__scores">
+            <Score title={"Reaction"} color={'red'} icon={iconReaction} score={80}/>
+            <Score title={"Memory"} color={'yellow'} icon={iconMemory} score={92}/>
+            <Score title={"Verbal"} color={'green'} icon={iconVerbal} score={61}/>
+            <Score title={"Visual"} color={'blue'} icon={iconVisual} score={72}/>
+          </div>
           <button>Continue</button>
         </div>
       </section>

@@ -9,13 +9,14 @@ interface ScoreProps {
 }
 
 const Score:FC<ScoreProps> = (props) => {
+    const {color, icon, title, score} = {...props};
     return (
-        <div className='score__summary-item'>
+        <div className={`score__summary-item score__summary-${color}`}>
             <div className='score__summary-left'>
-                <img className='score__summary-item__icon' src={props.icon} alt="icon" />
-                <h3 className='score__summary-label'>Reaction</h3>
+                <img className='score__summary-item__icon' src={icon} alt="icon" />
+                <h3 className='score__summary-label'>{title}</h3>
             </div>
-            <h3 className='score__summary-score'><span>{props.score}</span> / 100</h3>
+            <h3 className='score__summary-score'><span>{score}</span> / 100</h3>
         </div>
     );
 }

@@ -65,9 +65,36 @@
     font-size: 1.125rem;
 }
 
+.summary__title {
+    margin-bottom: 1.75rem;
+}
+
 .results__summary {
     padding-left: 2.5rem;
 }
+
+.results__scores {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.results__summary button {
+    margin-top: 2.5625rem;
+    width: 18rem;
+    height: 3.5rem;
+    border: none;
+    background-color: #303B59;
+    border-radius: 8rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.results__summary button:hover { 
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+}
+
 
 .app__attribution {
     position: absolute;
