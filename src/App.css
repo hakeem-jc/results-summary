@@ -131,6 +131,29 @@
         width: 100%;
     }
 
+    .results__title {
+        font-size: 1.125rem;
+    }
+
+    .results__text {
+        font-size: 1rem;
+    }
+
+    .results__score {
+        font-size: 3.5rem;
+        width: 8.75rem;
+        height: 8.75rem;
+        
+    }
+
+    .results__score span { 
+        font-size: 1rem;
+    }
+
+    .results__subtitle {
+        font-size: 1.5rem;
+    }
+
     .app__attribution {
         position: relative;
     }

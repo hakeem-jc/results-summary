@@ -11,11 +11,11 @@ const App = () => {
     <main className='app__container'>
       <section className='results'>
         <div className='results__info'>
-          <h1 className='results__title'>Your Results</h1>
+          <h1 className='results__title'>Your Result</h1>
           <div className='results__score'>76 <span>of 100</span></div>
           <div className='results__text-container'>
             <h2 className='results__subtitle'>Great</h2>
-            <p className='results__text'>Your performance exceeded 65% of the people conducting the test here!</p>
+            <p className='results__text'>Your performance exceed 65% of the people conducting the test here!</p>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ const App = () => {
 
       <div className="app__attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/hakeem-jc">Hakeem Clarke</a>.
+        Coded by <a href="https://github.com/hakeem-jc" target="_blank">Hakeem Clarke</a>.
       </div>
     </main>
   )
