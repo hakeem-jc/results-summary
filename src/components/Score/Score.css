@@ -65,3 +65,13 @@
 .score__summary-blue .score__summary-label {
     color: #1125D6;
 }
+
+@media screen and (max-width: 500px) {
+    .score__summary-label { 
+        font-size: 1rem;
+    }
+
+    .score__summary-score {
+        font-size: 1rem;
+    }
+}
