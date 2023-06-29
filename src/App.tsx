@@ -15,19 +15,21 @@ const App = () => {
           <div className='results__score'>76 <span>of 100</span></div>
           <div className='results__text-container'>
             <h2 className='results__subtitle'>Great</h2>
-            <p className='results__text'>Your performance exceed 65% of the people conducting the test here!</p>
+            <p className='results__text'>Your performance exceeded 65% of the people conducting the test here!</p>
           </div>
         </div>
 
-        <div className='results__summary'>
-          <h1 className='summary__title'>Summary</h1>
-          <div className="results__scores">
-            <Score title={"Reaction"} color={'red'} icon={iconReaction} score={80}/>
-            <Score title={"Memory"} color={'yellow'} icon={iconMemory} score={92}/>
-            <Score title={"Verbal"} color={'green'} icon={iconVerbal} score={61}/>
-            <Score title={"Visual"} color={'blue'} icon={iconVisual} score={72}/>
+        <div className='results__summary_container'>
+          <div className='results__summary'>
+            <h1 className='summary__title'>Summary</h1>
+            <div className="results__scores">
+              <Score title={"Reaction"} color={'red'} icon={iconReaction} score={80}/>
+              <Score title={"Memory"} color={'yellow'} icon={iconMemory} score={92}/>
+              <Score title={"Verbal"} color={'green'} icon={iconVerbal} score={61}/>
+              <Score title={"Visual"} color={'blue'} icon={iconVisual} score={72}/>
+            </div>
+            <button>Continue</button>
           </div>
-          <button>Continue</button>
         </div>
       </section>
 
