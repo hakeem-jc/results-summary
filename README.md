@@ -1,7 +1,7 @@
 
 <div  align="center">
 
-<a  href="https://github.com/hakeem-jc/gpt-light">
+<a  href="https://results-summary-alpha.vercel.app/" target="_blank">
 
 </a>
 
@@ -15,7 +15,7 @@
 A front end mentor practice project
 Built with React and TypeScript
 
-<a  href="">View Demo</a>
+<a  href="https://results-summary-alpha.vercel.app/" target="_blank">View Demo</a>
 
 </p>
 
