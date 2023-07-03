@@ -20,14 +20,11 @@
     font-size: 1.125rem;
 }
 
-.score__summary-score {
-    color: #303B59;
-    opacity: 0.5;
-}
 
 .score__summary-score span {
-    color: black;
-    opacity: 1;
+    color: #303B59;
+    opacity: 0.5;
+
 }
 
 .score__summary-red {

@@ -16,7 +16,7 @@ const Score:FC<ScoreProps> = (props) => {
                 <img className='score__summary-item__icon' src={icon} alt="icon" />
                 <h3 className='score__summary-label'>{title}</h3>
             </div>
-            <h3 className='score__summary-score'><span>{score}</span> / 100</h3>
+            <h3 className='score__summary-score'>{score} <span>/ 100</span></h3>
         </div>
     );
 }

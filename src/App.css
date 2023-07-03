@@ -129,6 +129,7 @@
     
     .results__summary_container {
         width: 100%;
+        padding-bottom: 2rem;
     }
 
     .results__title {
@@ -158,10 +159,6 @@
 
     .summary__title {
         font-size: 1.125rem;
-    }
-
-    .results__summary button  {
-        
     }
 
     .app__attribution {
